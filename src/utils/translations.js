@@ -11,6 +11,12 @@ const translations = {
       Portfolio: "Portfolio",
     },
   },
+  de: {
+    translation: {
+      Resume: "Lebenslauf",
+      Portfolio: "Portfolio",
+    },
+  },
 };
 
 export default translations;

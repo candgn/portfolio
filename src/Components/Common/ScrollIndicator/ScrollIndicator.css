@@ -1,0 +1,9 @@
+.line {
+  float: left;
+  background: white;
+  width: 5px;
+  border-radius: 4px;
+  height: 40px;
+  position: fixed;
+  top: 0;
+}

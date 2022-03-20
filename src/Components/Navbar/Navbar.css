@@ -1,0 +1,44 @@
+.navbar {
+  height: 100vh;
+  width: 100px;
+  border-right: solid 1px #ffffff40;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: 0.2s;
+  background-color: black;
+}
+.navbar:hover {
+  width: 150px;
+}
+
+.navbar-list {
+  margin-left: 20px;
+  margin-top: 40vh;
+  transition: 0.2s;
+  color: white;
+}
+.navbar:hover .navbar-list {
+  margin-left: 0px;
+}
+
+.navbar-list-item {
+  margin-bottom: 10px;
+}
+
+ul li::before {
+  color: grey;
+}
+
+.navbar-link {
+  visibility: hidden;
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.navbar:hover .navbar-link {
+  visibility: visible !important;
+  transition: 0.5s;
+}
