@@ -5,9 +5,15 @@
   margin: 20px;
 }
 
+@media screen and (max-width: 800px) {
+  .info-container {
+    flex-direction: column;
+  }
+}
+
 .info-image-container {
   flex-grow: 1;
-  height: 200px;
+  min-height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -15,7 +21,7 @@
 
 .info-data-container {
   flex-grow: 4;
-  height: 200px;
+  min-height: 200px;
 }
 
 .info-data-container-details {

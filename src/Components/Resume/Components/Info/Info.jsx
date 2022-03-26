@@ -2,14 +2,15 @@ import React from "react";
 import { withTranslation } from "react-i18next";
 import Avatar from "@mui/material/Avatar";
 import "./Info.css";
-import PersonalInfo from "../../Constants/PersonalInfo";
+
+import constants from "../../constants";
 
 const Info = ({ t }) => {
   const personalData = [
-    { title: "birth", data: PersonalInfo.birth },
-    { title: "nationality", data: PersonalInfo.nationality },
-    { title: "gender", data: PersonalInfo.gender },
-    { title: "location", data: PersonalInfo.location },
+    { title: "birth", data: constants.PERSONAL_INFO.birth },
+    { title: "nationality", data: constants.PERSONAL_INFO.nationality },
+    { title: "gender", data: constants.PERSONAL_INFO.gender },
+    { title: "location", data: constants.PERSONAL_INFO.location },
   ];
   return (
     <div className="info-container">
@@ -18,7 +19,7 @@ const Info = ({ t }) => {
       </div>
       <div className="info-data-container">
         <p className="name-surname">
-          {PersonalInfo.name} {PersonalInfo.surname}
+          {constants.PERSONAL_INFO.name} {constants.PERSONAL_INFO.surname}
         </p>
         <div className="info-data-container-details">
           {personalData.map((data, i) => (
@@ -28,6 +29,7 @@ const Info = ({ t }) => {
             </p>
           ))}
         </div>
+        <div className="info-social-container"></div>
       </div>
     </div>
   );

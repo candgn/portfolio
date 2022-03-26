@@ -1,0 +1,67 @@
+.exp-container {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.exp-date-container {
+  border-right: solid 1px #ffffff60;
+  text-align: right;
+  padding-right: 25px;
+  margin: 10px;
+  width: 15%;
+}
+
+.exp-location-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.exp-location-icon {
+  margin-right: 5px;
+}
+.exp-info-container {
+  width: 75%;
+}
+
+.exp-info-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom: solid 1px #ffffff60;
+  text-align: left;
+  padding-right: 25px;
+  margin: 10px;
+}
+
+.exp-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  margin-top: 5px;
+  border-radius: 15px;
+}
+.exp-title {
+  font-size: 24px;
+  font-weight: 700;
+  border-right: solid 1px #ffffff60;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+.exp-desc {
+  margin-left: 2%;
+}
+
+.exp-additional-icon-container {
+  border-bottom: solid 1px #ffffff60;
+  padding-bottom: 5px;
+  display: flex;
+  flex-direction: row;
+}
+.exp-additional-icon {
+  margin: 3px;
+}
