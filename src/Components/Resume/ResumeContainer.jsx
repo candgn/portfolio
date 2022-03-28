@@ -14,6 +14,7 @@ import Experience from "./Components/Experience/Experience";
 import { MdOutlineWork, MdSchool, MdLanguage } from "react-icons/md";
 
 import Tabs from "../Common/Tabs/Tabs";
+import Languages from "./Components/LanguagesComponent/Languages";
 
 const ResumeContainer = ({ t }) => {
   return (
@@ -58,17 +59,7 @@ const ResumeContainer = ({ t }) => {
           {
             title: "languages",
             icon: <MdLanguage />,
-            Content: constants.EDUCATION.map((education) => (
-              <Experience
-                startDate={education.startDate}
-                endDate={education.endDate}
-                location={education.location}
-                title={education.university}
-                subTitle={education.field}
-                link={education.link}
-                logo={education.logo}
-              />
-            )),
+            Content: <Languages />,
           },
         ]}
       />

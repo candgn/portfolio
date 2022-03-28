@@ -1,7 +1,6 @@
 .info-container {
   display: flex;
   flex-direction: row;
-  border-bottom: solid 1px #f2f2f260;
   padding: 5%;
   padding-bottom: 0%;
   padding-top: 0%;

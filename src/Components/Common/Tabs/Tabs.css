@@ -5,7 +5,6 @@
   display: flex;
   flex-direction: row;
   border-bottom: solid 1px #f2f2f2;
-  padding-left: 6%;
 }
 .active-tab {
   display: flex;
@@ -18,7 +17,7 @@
 .passive-tab {
   display: flex;
   align-items: center;
-  margin: 7px;
+  margin-top: 10px;
   color: #f2f2f2;
   padding: 0px 10px;
   border: solid 1px;
