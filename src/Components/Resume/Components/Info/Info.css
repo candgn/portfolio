@@ -1,8 +1,11 @@
 .info-container {
   display: flex;
   flex-direction: row;
-  border-bottom: solid 1px #ffffff;
-  margin: 20px;
+  border-bottom: solid 1px #f2f2f260;
+  padding: 5%;
+  padding-bottom: 0%;
+  padding-top: 0%;
+  background-color: #222222;
 }
 
 @media screen and (max-width: 800px) {
@@ -12,8 +15,8 @@
 }
 
 .info-image-container {
+  margin-left: 2%;
   flex-grow: 1;
-  min-height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +24,6 @@
 
 .info-data-container {
   flex-grow: 4;
-  min-height: 200px;
 }
 
 .info-data-container-details {
@@ -33,16 +35,16 @@
 .name-surname {
   font-size: 36px;
   padding-bottom: 15px;
-  color: #ffffff;
-  margin: 40px 20px 0px 20px;
-  border-bottom: solid 1px #ffffff60;
+  color: #f2f2f2;
+  margin: 20px 20px 0px 20px;
+  border-bottom: solid 1px #f2f2f260;
 }
 
 .personal-data-detail {
   font-size: 18px;
   font-weight: 700;
-  color: #ffffff;
+  color: #f2f2f2;
   padding-right: 30px;
   margin-left: 30px;
-  border-right: solid 1px #ffffff;
+  border-right: solid 1px #f2f2f260;
 }

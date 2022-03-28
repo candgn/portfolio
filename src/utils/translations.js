@@ -48,6 +48,7 @@ const translations = {
       education: "Education",
       tdu: "Turkish-German University",
       mechatronicsEngineering: "Mechatronics Engineering",
+      languages: "Languages",
     },
   },
   tr: {
@@ -97,6 +98,7 @@ const translations = {
       education: "Eğitim",
       tdu: "Türk-Alman Üniversitesi",
       mechatronicsEngineering: "Mekatronik Mühendisliği",
+      languages: "Diller",
     },
   },
   de: {
@@ -149,6 +151,7 @@ const translations = {
       education: "Ausbildung",
       tdu: "Türkisch-Deustche Universität",
       mechatronicsEngineering: "Mechatronik Ingenieurwesen",
+      languages: "Sprachen",
     },
   },
 };

@@ -7,7 +7,13 @@ import Navbar from "./Components/Navbar/Navbar";
 function App() {
   return (
     <BrowserRouter>
-      <div style={{ display: "flex", flexDirection: "row" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          backgroundColor: "#222222",
+        }}
+      >
         <Navbar />
         <Routes>
           <Route path="/" element={<ResumeContainer />} />

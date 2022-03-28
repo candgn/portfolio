@@ -15,7 +15,7 @@ const Info = ({ t }) => {
   return (
     <div className="info-container">
       <div className="info-image-container">
-        <Avatar sx={{ width: 128, height: 128 }} alt="candogan" />
+        <Avatar sx={{ width: 100, height: 100}} alt="candogan" />
       </div>
       <div className="info-data-container">
         <p className="name-surname">
