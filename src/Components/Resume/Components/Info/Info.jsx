@@ -5,7 +5,7 @@ import "./Info.css";
 
 import constants from "../../constants";
 
-const Info = ({ t }) => {
+const Info = ({ t, hideImage }) => {
   const personalData = [
     { title: "birth", data: constants.PERSONAL_INFO.birth },
     { title: "nationality", data: constants.PERSONAL_INFO.nationality },
@@ -14,9 +14,16 @@ const Info = ({ t }) => {
   ];
   return (
     <div className="info-container">
-      <div className="info-image-container">
-        <Avatar sx={{ width: 100, height: 100}} alt="candogan" />
-      </div>
+      {hideImage !== true && (
+        <div className="info-image-container">
+          <Avatar
+            src="/can.jpeg"
+            sx={{ width: 110, height: 110 }}
+            alt="candogan"
+          />
+        </div>
+      )}
+
       <div className="info-data-container">
         <p className="name-surname">
           {constants.PERSONAL_INFO.name} {constants.PERSONAL_INFO.surname}

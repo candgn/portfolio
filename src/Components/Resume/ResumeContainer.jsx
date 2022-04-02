@@ -19,6 +19,70 @@ import Languages from "./Components/LanguagesComponent/Languages";
 const ResumeContainer = ({ t }) => {
   return (
     <div className="resume-container">
+      {/* ALL IN ONE VIEW */}
+      {/* <div
+        style={{
+          width: "40%",
+          paddingRight: "4%",
+          borderRight: "solid 1px #f2f2f2",
+        }}
+      >
+        <div style={{ padding: "5%" }}>
+          <Info hideImage={true} />
+        </div>
+
+        <SectionContainer
+          title="education"
+          icon={<MdSchool />}
+          style={{ paddingTop: "0" }}
+        >
+          {constants.EDUCATION.map((education) => (
+            <Experience
+              startDate={education.startDate}
+              endDate={education.endDate}
+              location={education.location}
+              title={education.university}
+              subTitle={education.field}
+              link={education.link}
+              logo={education.logo}
+            />
+          ))}
+        </SectionContainer>
+
+        <SectionContainer
+          title="languages"
+          icon={<MdLanguage />}
+          style={{ paddingTop: "0" }}
+        >
+          <Languages />
+        </SectionContainer>
+      </div>
+      <div style={{ width: "55%" }}>
+        {" "}
+        <SectionContainer
+          title="workExperience"
+          icon={<MdOutlineWork />}
+          sectionContentStyle={{ height: "80vh", overflowY: "scroll" }}
+        >
+          {constants.WORK_EXPERIENCE.map((weData) => (
+            <Experience
+              startDate={weData.startDate}
+              endDate={weData.endDate}
+              location={weData.location}
+              title={weData.companyName}
+              subTitle={weData.jobTitle}
+              logo={weData.logo}
+              link={weData.link}
+              desc={weData.desc}
+              bullets={weData.bullets}
+              additionalIcons={weData.additionalIcons}
+            />
+          ))}
+        </SectionContainer>
+      </div> */}
+
+      {/* TAB VİEW */}
+
       <ScrollIndicator />
       <Info />
       <Tabs
@@ -63,7 +127,11 @@ const ResumeContainer = ({ t }) => {
           },
         ]}
       />
-      {/* <SectionContainer title="workExperience" icon={<MdOutlineWork />}>
+
+      {/* SECTION FLOW VIEW */}
+      {/* <ScrollIndicator />
+      <Info />
+      <SectionContainer title="workExperience" icon={<MdOutlineWork />}>
         {constants.WORK_EXPERIENCE.map((weData) => (
           <Experience
             startDate={weData.startDate}

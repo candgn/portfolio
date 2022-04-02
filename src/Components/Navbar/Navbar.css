@@ -8,6 +8,7 @@
   right: 0;
   transition: 0.2s;
   background-color: #222222;
+  z-index: 2;
 }
 .navbar:hover {
   width: 150px;
@@ -41,4 +42,36 @@ ul li::before {
 .navbar:hover .navbar-link {
   visibility: visible !important;
   transition: 0.5s;
+}
+
+.icon {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .icon {
+    width: 98%;
+    height: 40px;
+    text-align: right;
+    margin-top: 10px;
+    display: block;
+    color: white;
+  }
+  .navbar-list-item {
+    display: none;
+    width: 100%;
+  }
+  .navbar {
+    flex-direction: column;
+    position: fixed;
+    justify-content: flex-start;
+    height: 60px;
+    width: 100% !important;
+  }
+  .navbar-list {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    transition: 0.2s;
+    color: #f2f2f2;
+  }
 }

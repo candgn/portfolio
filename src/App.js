@@ -12,6 +12,7 @@ function App() {
           display: "flex",
           flexDirection: "row",
           backgroundColor: "#222222",
+          overflow: "hidden",
         }}
       >
         <Navbar />

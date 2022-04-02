@@ -5,6 +5,7 @@
   display: flex;
   flex-direction: row;
   border-bottom: solid 1px #f2f2f2;
+  overflow-x: scroll;
 }
 .active-tab {
   display: flex;
@@ -13,6 +14,8 @@
   color: #f2f2f2;
   padding: 10px;
   border: solid 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .passive-tab {
   display: flex;
@@ -22,6 +25,8 @@
   padding: 0px 10px;
   border: solid 1px;
   cursor: pointer;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 .tab-icon {
   font-size: 20px;

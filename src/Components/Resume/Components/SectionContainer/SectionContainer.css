@@ -11,9 +11,9 @@
 .section-title-container {
   display: flex;
   align-items: center;
-  color: #14c7de;
+  color: #f2f2f2;
   font-size: 24px;
   font-weight: 700;
-  border-bottom: solid 1px #ffffff60;
+  border-bottom: solid 1px #f2f2f260;
   padding-bottom: 10px;
 }

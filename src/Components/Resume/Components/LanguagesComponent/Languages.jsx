@@ -15,16 +15,14 @@ const tableHeadSubTitle = { color: "white" };
 const Languages = ({ t }) => {
   return (
     <TableContainer>
-      <Table>
+      <Table sx={{ margin: "10%", width: "80%" }}>
         <TableHead>
           <TableRow>
             <TableCell
               sx={{ ...tableHeadTitle, borderRight: "solid 1px #f2f2f2" }}
               align="center"
               colSpan={3}
-            >
-            
-            </TableCell>
+            ></TableCell>
             <TableCell sx={tableHeadTitle} align="center" colSpan={2}>
               Understanding
             </TableCell>
