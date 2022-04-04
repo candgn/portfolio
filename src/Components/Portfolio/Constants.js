@@ -10,6 +10,8 @@ const dummyData = {
   ],
 };
 
-const Constants = { dummyData };
+const cards = ["ImageMore", "IconText", "ImageTextButtonCard"];
+
+const Constants = { dummyData, cards };
 
 export default Constants;
