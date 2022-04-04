@@ -32,7 +32,13 @@ const Tabs = ({ t, tabs }) => {
       </div>
       <div className="tab-content-container">
         {tabs.map((tab, i) => (
-          <div style={{ display: tab.title === activeTab ? "block" : "none" }}>
+          <div
+            style={{
+              display: tab.title === activeTab ? "block" : "none",
+              height: "70vh",
+              overflowY: "scroll",
+            }}
+          >
             {tab.Content}
           </div>
         ))}

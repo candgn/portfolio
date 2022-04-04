@@ -1,6 +1,11 @@
 import { FaReact, FaJira } from "react-icons/fa";
 import { IoLogoJavascript, IoLogoCss3, IoLogoGithub } from "react-icons/io";
-import { AiOutlineGitlab, AiOutlineHtml5 } from "react-icons/ai";
+import {
+  AiOutlineGitlab,
+  AiOutlineHtml5,
+  AiFillLinkedin,
+  AiOutlineMail,
+} from "react-icons/ai";
 import { SiFlutter, SiZoho, SiAndroidstudio } from "react-icons/si";
 
 const PERSONAL_INFO = {
@@ -10,11 +15,14 @@ const PERSONAL_INFO = {
   nationality: "turkey",
   gender: "male",
   location: "istanbul",
-  links: {
-    linkedin: "https://www.linkedin.com/in/can-doğan-238a5115a/",
-    github: "https://github.com/candgn",
-    skype: "live:can.dgn03",
-  },
+  links: [
+    {
+      icon: <AiFillLinkedin />,
+      link: "https://www.linkedin.com/in/can-doğan-238a5115a/",
+    },
+    { icon: <IoLogoGithub />, link: "https://github.com/candgn" },
+    { icon: <AiOutlineMail />, link: "mailto:can.dgn03@gmail.com" },
+  ],
 };
 
 const WORK_EXPERIENCE = [

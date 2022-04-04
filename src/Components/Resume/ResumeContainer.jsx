@@ -12,6 +12,7 @@ import constants from "./constants";
 import Experience from "./Components/Experience/Experience";
 
 import { MdOutlineWork, MdSchool, MdLanguage } from "react-icons/md";
+import { AiOutlineDownload } from "react-icons/ai";
 
 import Tabs from "../Common/Tabs/Tabs";
 import Languages from "./Components/LanguagesComponent/Languages";
@@ -84,6 +85,17 @@ const ResumeContainer = ({ t }) => {
       {/* TAB VİEW */}
 
       <ScrollIndicator />
+
+      <a
+        className="resume-download-pdf-link-container"
+        href="/Assets/can+dogan+cv.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <p className="resume-download-pdf"> {t("downloadPDF")} </p>{" "}
+        <AiOutlineDownload className="resume-download-pdf-icon" />
+      </a>
+
       <Info />
       <Tabs
         tabs={[

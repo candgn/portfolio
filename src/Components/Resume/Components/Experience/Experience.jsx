@@ -53,8 +53,13 @@ const Experience = ({
         {additionalIcons && (
           <div className="exp-additional-icon-container">
             {" "}
-            {additionalIcons.map((icon) => (
-              <div className="exp-additional-icon">{icon}</div>
+            {additionalIcons.map((icon, i) => (
+              <div
+                className="exp-additional-icon"
+                key={title + "-" + i + "-" + "additional-icons"}
+              >
+                {icon}
+              </div>
             ))}{" "}
           </div>
         )}

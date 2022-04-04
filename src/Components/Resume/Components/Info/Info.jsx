@@ -36,7 +36,19 @@ const Info = ({ t, hideImage }) => {
             </p>
           ))}
         </div>
-        <div className="info-social-container"></div>
+        <div className="info-social-container">
+          {constants.PERSONAL_INFO.links.map((item, i) => (
+            <a
+              className="personal-link-icon"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={item.link}
+              key={"personal-links-" + i}
+            >
+              {item.icon}
+            </a>
+          ))}
+        </div>
       </div>
     </div>
   );
