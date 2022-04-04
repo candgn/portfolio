@@ -1,0 +1,40 @@
+.image-more-container {
+  margin: 10%;
+  min-height: 300px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 8%);
+  background-color: #f2f2f2;
+  border-radius: 10px;
+}
+.image-more-container:hover {
+  margin: 8%;
+}
+.image-more-detail-button {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.image-more-card-img {
+  width: 100%;
+  height: 200px;
+}
+
+.image-more-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.image-more-title {
+  color: black;
+  margin: 10px !important;
+}
+.image-more-more {
+  color: #1976d2;
+  margin: 10px !important;
+}
+
+.image-more-form-button {
+  width: 96%;
+  padding: 2%;
+}

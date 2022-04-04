@@ -11,7 +11,7 @@
   z-index: 2;
 }
 .navbar:hover {
-  width: 150px;
+  width: 150px !important;
 }
 
 .navbar-list {

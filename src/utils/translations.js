@@ -50,6 +50,9 @@ const translations = {
       mechatronicsEngineering: "Mechatronics Engineering",
       languages: "Languages",
       downloadPDF: "Download PDF",
+      cardSlider: "Card Slider",
+      more: "More",
+      
     },
   },
   tr: {
@@ -101,6 +104,7 @@ const translations = {
       mechatronicsEngineering: "Mekatronik Mühendisliği",
       languages: "Diller",
       downloadPDF: "PDF İndir",
+      more: "Daha Fazla",
     },
   },
   de: {
@@ -155,6 +159,7 @@ const translations = {
       mechatronicsEngineering: "Mechatronik Ingenieurwesen",
       languages: "Sprachen",
       downloadPDF: "PDF Herunterladen",
+      more: "Mehr",
     },
   },
 };

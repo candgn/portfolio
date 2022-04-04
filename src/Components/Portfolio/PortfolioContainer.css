@@ -1,0 +1,10 @@
+.portfolio-container {
+  width: 80%;
+  height: 100%;
+}
+
+.portfolio-wrapper {
+  border-bottom: solid 1px #f2f2f260;
+  padding: 10%;
+  margin-left: 5%;
+}

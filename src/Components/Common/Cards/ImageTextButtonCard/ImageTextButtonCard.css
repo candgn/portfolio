@@ -1,0 +1,30 @@
+.image-text-button {
+  margin-bottom: 20%;
+}
+
+.image-text-button-image {
+  width: 220px;
+  height: 180px;
+  display: flex;
+  justify-content: flex-start;
+}
+.image-text-button-title {
+  font-weight: 700;
+}
+.image-text-button-desc {
+  display: -webkit-box;
+  max-width: 200px;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-align: justify;
+}
+
+.image-text-button-button {
+  width: 220px;
+}
+
+.image-text-button-detail-link {
+  text-decoration: none;
+  color: white;
+}
