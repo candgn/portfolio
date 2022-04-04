@@ -1,6 +1,6 @@
 # How to run => 
-  npm install
-  npm start
+ 1- npm install</br>
+ 2- npm start
 
 
 # Import react slick carousel for Card Slider component </br>
