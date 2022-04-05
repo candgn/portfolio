@@ -16,11 +16,12 @@
 }
 
 .resume-download-pdf-link-container {
+  position: fixed;
+  right: 0;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
-  margin-bottom: -20px;
   text-decoration: none;
   color: #f2f2f2;
 }

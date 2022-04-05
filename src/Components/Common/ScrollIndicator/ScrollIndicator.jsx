@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ScrollIndicator.css";
 
-const ScrollIndicator = () => {
+const ScrollIndicator = ({ scrolled }) => {
   const [scroll, setScroll] = useState("0%");
 
   const onScroll = () => {
@@ -13,9 +13,14 @@ const ScrollIndicator = () => {
     setScroll(ScrollPercent + "%");
   };
 
-  window.addEventListener("scroll", onScroll);
+  if (!scrolled) {
+    window.addEventListener("scroll", onScroll);
+  }
 
-  return <div class="line" style={{ height: scroll }}></div>;
+  console.log(scrolled);
+  return (
+    <div class="line" style={{ height: scrolled ? scrolled : scroll }}></div>
+  );
 };
 
 export default ScrollIndicator;

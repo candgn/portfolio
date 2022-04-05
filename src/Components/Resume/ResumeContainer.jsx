@@ -84,7 +84,7 @@ const ResumeContainer = ({ t }) => {
 
       {/* TAB VİEW */}
 
-      <ScrollIndicator />
+ 
 
       <a
         className="resume-download-pdf-link-container"

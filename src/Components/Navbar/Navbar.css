@@ -27,6 +27,7 @@
 
 .navbar-list-item {
   margin-bottom: 10px;
+  font-size: 36px;
 }
 
 ul li::before {
@@ -37,6 +38,7 @@ ul li::before {
   visibility: hidden;
   text-decoration: none;
   color: white;
+  font-size: 18px !important;
   font-weight: 700;
 }
 

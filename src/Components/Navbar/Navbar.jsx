@@ -24,8 +24,8 @@ const Navbar = ({ t }) => {
       </div>
 
       <ul className="navbar-list">
-        <li className="navbar-list-item">
-          <Link to="/" className="navbar-link">
+        <li className="navbar-list-item" >
+          <Link to="/" className="navbar-link" >
             {t("Resume")}
           </Link>
         </li>
