@@ -21,13 +21,15 @@ const PortfolioContainer = ({ t }) => {
   return (
     <div className="portfolio-container">
       <div className="portfolio-wrapper">
-        <Select value={selectedCard} onChange={handleChange}>
-          {Constants.cards.map((CardName, i) => (
-            <MenuItem value={CardName} key={"card-name-" + i}>
-              {CardName}
-            </MenuItem>
-          ))}
-        </Select>
+        <div style={{ float: "right", marginTop: "10px" }}>
+          <Select value={selectedCard} onChange={handleChange}>
+            {Constants.cards.map((CardName, i) => (
+              <MenuItem value={CardName} key={"card-name-" + i}>
+                {t(CardName)}
+              </MenuItem>
+            ))}
+          </Select>
+        </div>
         <CardSlider
           title="cardSlider"
           data={threeElement}

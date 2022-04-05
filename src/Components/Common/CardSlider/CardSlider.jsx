@@ -12,22 +12,22 @@ import "./CardSlider.css";
 import useWindowDimensions from "../../../Helpers/useWindowDimensions";
 
 function NextArrow(props) {
-  const { className, style, onClick } = props;
+  const { style, onClick } = props;
   return (
     <div
-      className={className}
-      style={{ ...style, width: "auto" }}
+      className="card-slider-next-arrow"
+      style={{ ...style }}
       onClick={onClick}
     />
   );
 }
 
 function PrevArrow(props) {
-  const { className, style, onClick } = props;
+  const { style, onClick } = props;
   return (
     <div
-      className={className}
-      style={{ ...style, width: "auto" }}
+      className="card-slider-prev-arrow "
+      style={{ ...style }}
       onClick={onClick}
     />
   );
@@ -42,8 +42,6 @@ const CardSlider = ({ t, data, Card, title }) => {
     speed: 500,
     slidesToShow: width < 800 ? 1 : 3,
     slidesToScroll: width < 800 ? 1 : 3,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
   };
   return (
     <div>

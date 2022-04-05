@@ -52,7 +52,9 @@ const translations = {
       downloadPDF: "Download PDF",
       cardSlider: "Card Slider",
       more: "More",
-      
+      ImageMore: "Image More",
+      IconText: "Icon Text",
+      ImageTextButtonCard: "Image Text Button Card",
     },
   },
   tr: {

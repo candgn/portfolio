@@ -1,5 +1,11 @@
+.image-text-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
 .image-text-button {
-  margin-bottom: 20%;
+  width: 220px;
 }
 
 .image-text-button-image {

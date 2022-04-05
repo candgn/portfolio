@@ -2,7 +2,7 @@
   height: 100vh;
   width: 100px;
   border-right: solid 1px #f2f2f240;
-  position: sticky;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
