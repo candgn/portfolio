@@ -8,6 +8,7 @@
 @media screen and (max-width: 800px) {
   .resume-container {
     margin-top: 65px;
+    margin-left: 0px !important;
   }
   .resume-download-pdf-link-container {
     margin-bottom: -10px !important;

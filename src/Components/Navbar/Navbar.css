@@ -10,8 +10,9 @@
   background-color: #222222;
   z-index: 2;
 }
+
 .navbar:hover {
-  width: 150px !important;
+  width: 150px;
 }
 
 .navbar-list {
@@ -46,6 +47,11 @@ ul li::before {
 
 .icon {
   display: none;
+}
+@media screen and (min-width: 800px) {
+  .navbar-list-item {
+    display: list-item !important;
+  }
 }
 
 @media screen and (max-width: 800px) {
