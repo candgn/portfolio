@@ -8,6 +8,10 @@
   .portfolio-container {
     margin-top: 65px;
     margin-left: 0px !important;
+    width: 100%;
+  }
+  .portfolio-wrapper {
+    margin-right: 0px !important;
   }
 }
 

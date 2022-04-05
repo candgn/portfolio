@@ -38,7 +38,7 @@ const PortfolioContainer = ({ t }) => {
         <CardSlider title="cardSlider" data={sixElement} Card={Cards} />
       </div>
       <div className="portfolio-wrapper">
-        <div style={{ float: "right" }}>
+        <div style={{ float: "right", marginTop: "10px" }}>
           <DropDownButton
             data={Constants.cards}
             setSelectedValue={setSelectedCard}
