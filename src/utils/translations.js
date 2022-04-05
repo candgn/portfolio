@@ -55,6 +55,7 @@ const translations = {
       ImageMore: "Image More",
       IconText: "Icon Text",
       ImageTextButtonCard: "Image Text Button Card",
+      gridView: "Grid View",
     },
   },
   tr: {
