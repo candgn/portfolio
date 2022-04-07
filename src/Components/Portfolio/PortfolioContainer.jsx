@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { withTranslation } from "react-i18next";
 
 //Components
+import { TextField } from "@mui/material";
 import CardSlider from "../Common/CardSlider/CardSlider";
 import ImageMore from "../Common/Cards/ImageMore/ImageMore";
 import IconandText from "../Common/Cards/IconTextCard/IconandText";
@@ -9,16 +10,28 @@ import ImageTextButtonCard from "../Common/Cards/ImageTextButtonCard/ImageTextBu
 import GridView from "../Common/GridView/GridView";
 import DropDownButton from "../Common/DropDown/DropDownButton";
 import TwoColumn from "../Common/TwoColumn/TwoColumn";
+import HalfColumnText from "../Common/HalfColumnText/HalfColumnText";
 
 import Constants from "./Constants";
 
 import "./PortfolioContainer.css";
-import HalfColumnText from "../Common/HalfColumnText/HalfColumnText";
 
 const sixElement = Array.from({ length: 6 }, () => Constants.dummyData);
 
 const PortfolioContainer = ({ t }) => {
   const [selectedCard, setSelectedCard] = useState("ImageMore");
+  const [searchKeyword, setSearchKeyword] = useState("");
+
+  const compareFiltered = (componentId) => {
+    return searchKeyword === ""
+      ? true
+      : t(componentId).toLowerCase().includes(searchKeyword.toLowerCase());
+  };
+
+  const onSearch = (e) => {
+    let searchKeywordInput = e.target.value;
+    setSearchKeyword(searchKeywordInput);
+  };
 
   const Cards =
     selectedCard === "ImageMore"
@@ -29,8 +42,27 @@ const PortfolioContainer = ({ t }) => {
 
   return (
     <div className="portfolio-container">
+      {/* Component Search Bar  */}
+      <div
+        className="portfolio-wrapper"
+        style={{ paddingTop: "5%", paddingBottom: "0" }}
+      >
+        <TextField
+          sx={{ width: "90%" }}
+          id="outlined-basic"
+          label={t("searchComponent")}
+          variant="outlined"
+          onChange={onSearch}
+        />
+      </div>
       {/* Card Slider Component */}
-      <div className="portfolio-wrapper" style={{ marginRight: "100px" }}>
+      <div
+        className="portfolio-wrapper"
+        style={{
+          marginRight: "100px",
+          display: compareFiltered("cardSlider") === true ? "block" : "none",
+        }}
+      >
         <div style={{ float: "right", marginTop: "10px" }}>
           <DropDownButton
             data={Constants.cards}
@@ -42,7 +74,12 @@ const PortfolioContainer = ({ t }) => {
       </div>
 
       {/* Gric View Component */}
-      <div className="portfolio-wrapper">
+      <div
+        className="portfolio-wrapper"
+        style={{
+          display: compareFiltered("gridView") === true ? "block" : "none",
+        }}
+      >
         <div style={{ float: "right", marginTop: "10px" }}>
           <DropDownButton
             data={Constants.cards}
@@ -54,10 +91,16 @@ const PortfolioContainer = ({ t }) => {
       </div>
 
       {/* Two Column Info Text Button and Additioanal Images Component  */}
-      <div className="portfolio-wrapper" style={{ padding: "0" }}>
+      <div
+        className="portfolio-wrapper"
+        style={{
+          padding: "0",
+          display: compareFiltered("twoColumnInfo") === true ? "block" : "none",
+        }}
+      >
         <TwoColumn
           image={Constants.dummyData.image}
-          title={Constants.dummyData.title}
+          title="twoColumnInfo"
           subTitle={Constants.dummyData.subTitle}
           desc={Constants.dummyData.desc}
           link={Constants.dummyData.link}
@@ -66,7 +109,14 @@ const PortfolioContainer = ({ t }) => {
       </div>
 
       {/* Half Column Text Component */}
-      <div className="portfolio-wrapper" style={{ padding: "0" }}>
+      <div
+        className="portfolio-wrapper"
+        style={{
+          padding: "0",
+          display:
+            compareFiltered("halfColumnText") === true ? "block" : "none",
+        }}
+      >
         <HalfColumnText
           img={Constants.dummyData.image}
           title="halfColumnText"

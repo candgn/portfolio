@@ -67,6 +67,7 @@ const translations = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       loremTitle: "Lorem ipsum dolor sit ",
       halfColumnText: "Half Column Text Component",
+      searchComponent: "Search Component",
     },
   },
   tr: {
@@ -125,6 +126,7 @@ const translations = {
         "Cloudyflex, CRM ve Dijital Dönüşüm tecrübesiyle Türkiye ve Avrupa pazarı için esnek, güçlü ve ekonomik iş çözümleri sunar. Bir webmaster ve geliştiricisi olarak, şirketlerin web sitesinin geliştirilmesinden sorumluyum.",
       fraunhoferDesc:
         "Oho.wiki projesinin yazılım ve içerik yönetimi ile ilgili çeşitli görevlerden sorumlu olduğum, üretim bilimleri için en büyük araştırma enstitülerinden biri olan Fraunhofer Üretim Sistemleri ve Tasarım Teknolojisi Enstitüsü'nde stajyer olarak çalıştım.",
+      searchComponent: "Komponent Ara",
     },
   },
   de: {
@@ -186,6 +188,7 @@ const translations = {
         "Cloudyflex bietet flexible, leistungsstarke und wirtschaftliche Geschäftslösungen für die Türkei und den europäischen Markt mit Erfahrung in CRM und digitaler Transformation. Als Webmaster & Entwickler war ich für die Entwicklung von Firmen-Websites verantwortlich.",
       fraunhoferDesc:
         "Ich arbeitete als Praktikant für das Fraunhofer-Institut für Produktionsanlagen und Konstruktionstechnik, eines der größten Forschungsinstitute für Produktionswissenschaften, wo ich für verschiedene Aufgaben im Software- und Content-Management des Projekts oho.wiki verantwortlich war.",
+      searchComponent: "Suche Komponenten",
     },
   },
 };

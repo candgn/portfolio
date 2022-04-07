@@ -12,7 +12,6 @@ i18n
     resources: translations,
     lng: "en",
     fallbackLng: "en",
-    debug: true,
     interpolation: {
       escapeValue: false, // react already safes from xss
     },
