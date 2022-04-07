@@ -56,6 +56,12 @@ const translations = {
       IconText: "Icon Text",
       ImageTextButtonCard: "Image Text Button Card",
       gridView: "Grid View",
+      ambeentDesc:
+        "I started to work as a part-time working student, and then with the end of my study, I started working as a full-time front-end developer. I took part in the development and optimization of the dashboard of the Wi-Fi optimization product used by enterprises and thousands of users. In addition, I gave support to another product of Ambeent, customer relations platform Yardim-Ci of vehicle technical service used by enterprises.",
+      cfxDesc:
+        "Cloudyflex offers flexible, powerful and economical business solutions for the Turkey and the European market, with experience in CRM and Digital Transformation. As a webmaster & developer, I have been responsible for the development of companies web site.",
+      fraunhoferDesc:
+        "I worked as an intern for Fraunhofer Institute for Production Systems and Design Technology, one of the biggest research institutes for production sciences, where I was responsible for various tasks concerning software & content management of project oho.wiki.",
     },
   },
   tr: {
@@ -108,6 +114,12 @@ const translations = {
       languages: "Diller",
       downloadPDF: "PDF İndir",
       more: "Daha Fazla",
+      ambeentDesc:
+        "Yarı zamanlı olarak işe başladım ardından üniversitemin bitmesi ile birlikte full time front end developer olarak çalışmaya başladım. Wi-Fi optimization ürününün dashboardunun geliştirilmesinde ve optimize edilmesinde görev aldım. Bunun yanında Ambeent'ın diğer bir ürünü olan araç teknik servis müşteri ilişkileri platformu Yardım-cı ya da destek verdim.",
+      cfxDesc:
+        "Cloudyflex, CRM ve Dijital Dönüşüm tecrübesiyle Türkiye ve Avrupa pazarı için esnek, güçlü ve ekonomik iş çözümleri sunar. Bir webmaster ve geliştiricisi olarak, şirketlerin web sitesinin geliştirilmesinden sorumluyum.",
+      fraunhoferDesc:
+        "Oho.wiki projesinin yazılım ve içerik yönetimi ile ilgili çeşitli görevlerden sorumlu olduğum, üretim bilimleri için en büyük araştırma enstitülerinden biri olan Fraunhofer Üretim Sistemleri ve Tasarım Teknolojisi Enstitüsü'nde stajyer olarak çalıştım.",
     },
   },
   de: {
@@ -163,6 +175,12 @@ const translations = {
       languages: "Sprachen",
       downloadPDF: "PDF Herunterladen",
       more: "Mehr",
+      ambeentDesc:
+        "Angefangen habe ich als Werkstudent in Teilzeit und dann mit dem Ende meines Studiums als Vollzeit-Frontend-Entwickler. Ich war an der Entwicklung und Optimierung des Dashboards des Wi-Fi-Optimierungsprodukts beteiligt, das von Unternehmen und Tausenden von Benutzern verwendet wird. Darüber hinaus unterstützte ich ein weiteres Produkt von Ambeent, die Kundenbeziehungsplattform Yardim-Ci des technischen Fahrzeugdienstes, die von Unternehmen genutzt wird.",
+      cfxDesc:
+        "Cloudyflex bietet flexible, leistungsstarke und wirtschaftliche Geschäftslösungen für die Türkei und den europäischen Markt mit Erfahrung in CRM und digitaler Transformation. Als Webmaster & Entwickler war ich für die Entwicklung von Firmen-Websites verantwortlich.",
+      fraunhoferDesc:
+        "Ich arbeitete als Praktikant für das Fraunhofer-Institut für Produktionsanlagen und Konstruktionstechnik, eines der größten Forschungsinstitute für Produktionswissenschaften, wo ich für verschiedene Aufgaben im Software- und Content-Management des Projekts oho.wiki verantwortlich war.",
     },
   },
 };
