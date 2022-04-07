@@ -26,6 +26,7 @@ const Languages = ({ t }) => {
           height: 24,
           border: i18next.language === "en" && 1,
           borderColor: "white",
+          cursor: "pointer",
         }}
         alt="english"
         src={english}
@@ -37,6 +38,7 @@ const Languages = ({ t }) => {
           height: 24,
           border: i18next.language === "de" && 1,
           borderColor: "white",
+          cursor: "pointer",
         }}
         alt="german"
         src={german}
@@ -48,6 +50,7 @@ const Languages = ({ t }) => {
           height: 24,
           border: i18next.language === "tr" && 1,
           borderColor: "white",
+          cursor: "pointer",
         }}
         alt="turkish"
         src={turkish}
