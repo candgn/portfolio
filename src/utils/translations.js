@@ -57,7 +57,7 @@ const translations = {
       ImageTextButtonCard: "Image Text Button Card",
       gridView: "Grid View",
       ambeentDesc:
-        "I started to work as a part-time working student, and then with the end of my study, I started working as a full-time front-end developer. I took part in the development and optimization of the dashboard of the Wi-Fi optimization product used by enterprises and thousands of users. In addition, I gave support to another product of Ambeent, customer relations platform Yardim-Ci of vehicle technical service used by enterprises.",
+        "I started to work as a part-time working student, and then with the end of my study, i continiued working as a full-time front-end developer. I took part in the development and optimization of the dashboard of the Wi-Fi optimization product used by enterprises and thousands of users. In addition, I gave support to another product of Ambeent, customer relations platform Yardim-Ci of vehicle technical service used by enterprises.",
       cfxDesc:
         "Cloudyflex offers flexible, powerful and economical business solutions for the Turkey and the European market, with experience in CRM and Digital Transformation. As a webmaster & developer, I have been responsible for the development of companies web site.",
       fraunhoferDesc:
@@ -115,7 +115,7 @@ const translations = {
       downloadPDF: "PDF İndir",
       more: "Daha Fazla",
       ambeentDesc:
-        "Yarı zamanlı olarak işe başladım ardından üniversitemin bitmesi ile birlikte full time front end developer olarak çalışmaya başladım. Wi-Fi optimization ürününün dashboardunun geliştirilmesinde ve optimize edilmesinde görev aldım. Bunun yanında Ambeent'ın diğer bir ürünü olan araç teknik servis müşteri ilişkileri platformu Yardım-cı ya da destek verdim.",
+        "Yarı zamanlı çalışan bir öğrenci olarak çalışmaya başladım ve ardından eğitimimin bitmesiyle tam zamanlı bir ön uç geliştirici olarak çalışmaya devam ettim. İşletmeler ve binlerce kullanıcı tarafından kullanılan Wi-Fi optimizasyon ürününün gösterge panelinin geliştirilmesi ve optimizasyonunda görev aldım. Ayrıca Ambeent'in bir diğer ürünü olan müşteri ilişkileri platformu Yardım-Çi'nin işletmelerin kullandığı araç teknik servisine de destek verdim.",
       cfxDesc:
         "Cloudyflex, CRM ve Dijital Dönüşüm tecrübesiyle Türkiye ve Avrupa pazarı için esnek, güçlü ve ekonomik iş çözümleri sunar. Bir webmaster ve geliştiricisi olarak, şirketlerin web sitesinin geliştirilmesinden sorumluyum.",
       fraunhoferDesc:
@@ -176,7 +176,7 @@ const translations = {
       downloadPDF: "PDF Herunterladen",
       more: "Mehr",
       ambeentDesc:
-        "Angefangen habe ich als Werkstudent in Teilzeit und dann mit dem Ende meines Studiums als Vollzeit-Frontend-Entwickler. Ich war an der Entwicklung und Optimierung des Dashboards des Wi-Fi-Optimierungsprodukts beteiligt, das von Unternehmen und Tausenden von Benutzern verwendet wird. Darüber hinaus unterstützte ich ein weiteres Produkt von Ambeent, die Kundenbeziehungsplattform Yardim-Ci des technischen Fahrzeugdienstes, die von Unternehmen genutzt wird.",
+        "Angefangen habe ich als Werkstudent in Teilzeit, um dann mit dem Ende meines Studiums als Vollzeit-Frontend-Entwickler weiter zu arbeiten. Ich war an der Entwicklung und Optimierung des Dashboards des Wi-Fi-Optimierungsprodukts beteiligt, das von Unternehmen und Tausenden von Benutzern verwendet wird. Darüber hinaus unterstützte ich ein weiteres Produkt von Ambeent, die Kundenbeziehungsplattform Yardim-Ci des technischen Fahrzeugdienstes, die von Unternehmen genutzt wird.",
       cfxDesc:
         "Cloudyflex bietet flexible, leistungsstarke und wirtschaftliche Geschäftslösungen für die Türkei und den europäischen Markt mit Erfahrung in CRM und digitaler Transformation. Als Webmaster & Entwickler war ich für die Entwicklung von Firmen-Websites verantwortlich.",
       fraunhoferDesc:

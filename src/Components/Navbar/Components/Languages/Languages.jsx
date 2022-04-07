@@ -21,19 +21,34 @@ const Languages = ({ t }) => {
     >
       <Avatar
         onClick={() => onClick("en")}
-        sx={{ width: 24, height: 24 }}
+        sx={{
+          width: 24,
+          height: 24,
+          border: i18next.language === "en" && 1,
+          borderColor: "white",
+        }}
         alt="english"
         src={english}
       />
       <Avatar
         onClick={() => onClick("de")}
-        sx={{ width: 24, height: 24 }}
+        sx={{
+          width: 24,
+          height: 24,
+          border: i18next.language === "de" && 1,
+          borderColor: "white",
+        }}
         alt="german"
         src={german}
       />
       <Avatar
         onClick={() => onClick("tr")}
-        sx={{ width: 24, height: 24 }}
+        sx={{
+          width: 24,
+          height: 24,
+          border: i18next.language === "tr" && 1,
+          borderColor: "white",
+        }}
         alt="turkish"
         src={turkish}
       />
