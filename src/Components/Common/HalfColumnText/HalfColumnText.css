@@ -1,0 +1,30 @@
+.hct-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.hct-content-parent-container {
+  width: 50%;
+  min-height: 500px;
+}
+.hct-content-child-container {
+  padding: 20%;
+}
+@media screen and (max-width: 800px) {
+  .hct-content-parent-container {
+    width: 100%;
+    min-height: 300px;
+  }
+  .hct-content-child-container {
+    padding: 10%;
+  }
+}
+
+.hct-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.hct-desc {
+  text-align: justify;
+}

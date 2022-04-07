@@ -8,10 +8,12 @@ import IconandText from "../Common/Cards/IconTextCard/IconandText";
 import ImageTextButtonCard from "../Common/Cards/ImageTextButtonCard/ImageTextButtonCard";
 import GridView from "../Common/GridView/GridView";
 import DropDownButton from "../Common/DropDown/DropDownButton";
+import TwoColumn from "../Common/TwoColumn/TwoColumn";
 
 import Constants from "./Constants";
 
 import "./PortfolioContainer.css";
+import HalfColumnText from "../Common/HalfColumnText/HalfColumnText";
 
 const sixElement = Array.from({ length: 6 }, () => Constants.dummyData);
 
@@ -27,7 +29,8 @@ const PortfolioContainer = ({ t }) => {
 
   return (
     <div className="portfolio-container">
-      <div className="portfolio-wrapper">
+      {/* Card Slider Component */}
+      <div className="portfolio-wrapper" style={{ marginRight: "100px" }}>
         <div style={{ float: "right", marginTop: "10px" }}>
           <DropDownButton
             data={Constants.cards}
@@ -37,6 +40,8 @@ const PortfolioContainer = ({ t }) => {
         </div>
         <CardSlider title="cardSlider" data={sixElement} Card={Cards} />
       </div>
+
+      {/* Gric View Component */}
       <div className="portfolio-wrapper">
         <div style={{ float: "right", marginTop: "10px" }}>
           <DropDownButton
@@ -46,6 +51,27 @@ const PortfolioContainer = ({ t }) => {
           />
         </div>
         <GridView datas={sixElement} Card={Cards} title={"gridView"} />
+      </div>
+
+      {/* Two Column Info Text Button and Additioanal Images Component  */}
+      <div className="portfolio-wrapper" style={{ padding: "0" }}>
+        <TwoColumn
+          image={Constants.dummyData.image}
+          title={Constants.dummyData.title}
+          subTitle={Constants.dummyData.subTitle}
+          desc={Constants.dummyData.desc}
+          link={Constants.dummyData.link}
+          additionalImages={Constants.dummyData.additionalImages}
+        />
+      </div>
+
+      {/* Half Column Text Component */}
+      <div className="portfolio-wrapper" style={{ padding: "0" }}>
+        <HalfColumnText
+          img={Constants.dummyData.image}
+          title="halfColumnText"
+          desc={Constants.dummyData.desc}
+        />
       </div>
     </div>
   );

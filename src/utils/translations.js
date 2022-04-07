@@ -62,6 +62,11 @@ const translations = {
         "Cloudyflex offers flexible, powerful and economical business solutions for the Turkey and the European market, with experience in CRM and Digital Transformation. As a webmaster & developer, I have been responsible for the development of companies web site.",
       fraunhoferDesc:
         "I worked as an intern for Fraunhofer Institute for Production Systems and Design Technology, one of the biggest research institutes for production sciences, where I was responsible for various tasks concerning software & content management of project oho.wiki.",
+      twoColumnInfo: "Two Column Info Component",
+      loremDesc:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      loremTitle: "Lorem ipsum dolor sit ",
+      halfColumnText: "Half Column Text Component",
     },
   },
   tr: {
