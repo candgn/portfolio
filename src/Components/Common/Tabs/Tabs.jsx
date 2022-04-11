@@ -16,9 +16,7 @@ const Tabs = ({ t, tabs }) => {
     );
     setScrolled(`${scroll}%`);
 
-    if(scroll>10){
-      document.getElementById()
-    }
+  
   };
 
   return (

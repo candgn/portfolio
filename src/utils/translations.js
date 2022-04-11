@@ -44,7 +44,7 @@ const translations = {
       mercedesDesc: "Basic Engineering Internship",
       cofounderSoft: "Co-Founder and software developer",
       digistDesc:
-        "Co-Founder of a community, which gives services in the field of Web Development, Mobile Development etc. I am developing mostly android apps and designing WordPress web sites.",
+        "Digit360 is a community established by university friends that provides web development, mobile development, and other related services. I am one of the co-founders and primarily work on Android apps and WordPress website design.",
       education: "Education",
       tdu: "Turkish-German University",
       mechatronicsEngineering: "Mechatronics Engineering",
@@ -57,17 +57,21 @@ const translations = {
       ImageTextButtonCard: "Image Text Button Card",
       gridView: "Grid View",
       ambeentDesc:
-        "I started to work as a part-time working student, and then with the end of my study, i continiued working as a full-time front-end developer. I took part in the development and optimization of the dashboard of the Wi-Fi optimization product used by enterprises and thousands of users. In addition, I gave support to another product of Ambeent, customer relations platform Yardim-Ci of vehicle technical service used by enterprises.",
+        "As part of the Ambeent team, I carry out the development and improvement of the Wi-Fi optimization product's dashboard, which is utilized by various consumers and business enterprises. In addition, I provide support for another product named Yardim-Ci, which is a customer relations platform for vehicle technical service. The start-up environment of Ambeent requires efficient and collaborative problem-solving. Therefore, I make timely decisions by relying on my technical skills.",
       cfxDesc:
-        "Cloudyflex offers flexible, powerful and economical business solutions for the Turkey and the European market, with experience in CRM and Digital Transformation. As a webmaster & developer, I have been responsible for the development of companies web site.",
+        "Cloudyflex is a company with experience in CRM and digital transformation that provides flexible, strong and cost-effective business solutions for the Turkish and European market. As a webmaster and developer, I was in charge of the development of the company's website.",
       fraunhoferDesc:
-        "I worked as an intern for Fraunhofer Institute for Production Systems and Design Technology, one of the biggest research institutes for production sciences, where I was responsible for various tasks concerning software & content management of project oho.wiki.",
+        "The Fraunhofer Institute for Production Systems and Design Technology is one of the leading research institutes for production sciences. As an intern, I participated in the project oho.wiki regarding software and content management.        ",
       twoColumnInfo: "Two Column Info Component",
       loremDesc:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       loremTitle: "Lorem ipsum dolor sit ",
       halfColumnText: "Half Column Text Component",
       searchComponent: "Search Component",
+      motherLang: "Mother language",
+      turkish: "Turkish",
+      kal: "Kartal Anatolian High School",
+      highSchool: "High School",
     },
   },
   tr: {
@@ -127,6 +131,10 @@ const translations = {
       fraunhoferDesc:
         "Oho.wiki projesinin yazılım ve içerik yönetimi ile ilgili çeşitli görevlerden sorumlu olduğum, üretim bilimleri için en büyük araştırma enstitülerinden biri olan Fraunhofer Üretim Sistemleri ve Tasarım Teknolojisi Enstitüsü'nde stajyer olarak çalıştım.",
       searchComponent: "Komponent Ara",
+      motherLang: "Ana dil",
+      turkish: "Türkçe",
+      kal: "Kartal Anadolu Lisesi",
+      highSchool: "Lise",
     },
   },
   de: {
@@ -189,6 +197,10 @@ const translations = {
       fraunhoferDesc:
         "Ich arbeitete als Praktikant für das Fraunhofer-Institut für Produktionsanlagen und Konstruktionstechnik, eines der größten Forschungsinstitute für Produktionswissenschaften, wo ich für verschiedene Aufgaben im Software- und Content-Management des Projekts oho.wiki verantwortlich war.",
       searchComponent: "Suche Komponenten",
+      motherLang: "Muttersprache",
+      turkish: "Türkisch",
+      kal: "Kartal Anatolian Gymnasium",
+      highSchool: "Gymnasium",
     },
   },
 };

@@ -15,7 +15,7 @@ const ImageMore = ({ t, img, title, link }) => {
           to={link}
           className="image-more-detail-button"
           onClick={() => {
-            console.log(link);
+            // console.log(link);
           }}
         >
           <p className="image-more-more">{t("more")} &#62;</p>

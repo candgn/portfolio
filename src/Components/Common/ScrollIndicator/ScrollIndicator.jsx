@@ -17,7 +17,7 @@ const ScrollIndicator = ({ scrolled }) => {
     window.addEventListener("scroll", onScroll);
   }
 
-  console.log(scrolled);
+  // console.log(scrolled);
   return (
     <div class="line" style={{ height: scrolled ? scrolled : scroll }}></div>
   );

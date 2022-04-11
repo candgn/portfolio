@@ -128,6 +128,13 @@ const EDUCATION = [
     logo: "/logos/tdu.png",
     link: "http://www.tau.edu.tr/en",
   },
+  {
+    startDate: "2011",
+    endDate: "2025",
+    location: "istanbulTR",
+    university: "kal",
+    field: "highSchool",
+  },
 ];
 const constants = {
   PERSONAL_INFO,

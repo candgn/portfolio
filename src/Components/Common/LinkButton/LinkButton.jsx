@@ -6,7 +6,7 @@ import "./LinkButton.css";
 
 const LinkButton = ({ t, variant, link }) => {
   return (
-    <Link to={link ? link : "/contact"} className="link-button">
+    <Link to={link ? link : "/"} className="link-button">
       <Button variant={variant ? variant : "contained"}>
         {t("LinkButton")}
       </Button>

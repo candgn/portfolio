@@ -1,8 +1,9 @@
 .resume-container {
   background-color: #222;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   margin-left: 100px;
+  overflow-y: scroll;
 }
 
 @media screen and (max-width: 800px) {
@@ -16,7 +17,7 @@
 }
 
 .resume-download-pdf-link-container {
-  position: fixed;
+  position: absolute;
   right: 0;
   display: flex;
   flex-direction: row;

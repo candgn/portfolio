@@ -1,7 +1,7 @@
 import React from "react";
 import { withTranslation } from "react-i18next";
 
-import ScrollIndicator from "../Common/ScrollIndicator/ScrollIndicator";
+// import ScrollIndicator from "../Common/ScrollIndicator/ScrollIndicator";
 
 import Info from "./Components/Info/Info";
 // import SectionContainer from "./Components/SectionContainer/SectionContainer";
@@ -18,6 +18,16 @@ import Tabs from "../Common/Tabs/Tabs";
 import Languages from "./Components/LanguagesComponent/Languages";
 
 const ResumeContainer = ({ t }) => {
+  // const [scrolled, setScrolled] = useState(0);
+  // const handleScroll = (event) => {
+  //   const { scrollHeight, scrollTop, clientHeight } = event.target;
+  //   const scroll = (scrollTop / (scrollHeight - clientHeight)) * 100;
+  //   // console.log(
+  //   //   "sh: " + scrollHeight + " st: " + scrollTop + " ch: " + clientHeight
+  //   // );
+  //   setScrolled(scroll);
+  //   // setScrolled(`${scroll}%`);
+  // };
   return (
     <div className="resume-container">
       {/* ALL IN ONE VIEW */}
@@ -83,8 +93,6 @@ const ResumeContainer = ({ t }) => {
       </div> */}
 
       {/* TAB VİEW */}
-
- 
 
       <a
         className="resume-download-pdf-link-container"
