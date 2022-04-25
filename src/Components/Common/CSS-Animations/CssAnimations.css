@@ -1,0 +1,92 @@
+.css-animations-container {
+  padding: 10%;
+}
+.css-animations-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5%;
+  text-align: left;
+}
+
+.css-animations-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.css-animations-input-output-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.css-animations-input-wrapper,
+.css-animations-output-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.css-animations-properties-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  margin-top: 3%;
+}
+.css-animations-used-properties-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+}
+
+@media screen and (min-width: 800px) {
+  .css-animations-input-output-wrapper {
+    width: 50%;
+  }
+  .css-animations-output-wrapper {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .css-animations-input-output-wrapper {
+    width: 100%;
+  }
+  .css-animations-output-wrapper {
+    width: 100%;
+  }
+  .css-animations-input-wrapper {
+    flex-direction: column;
+    align-items: stretch;
+    
+  }
+}
+
+@keyframes example-animation {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+
+.css-animated-box {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  animation-name: example-animation;
+}

@@ -15,6 +15,7 @@ import HalfColumnText from "../Common/HalfColumnText/HalfColumnText";
 import Constants from "./Constants";
 
 import "./PortfolioContainer.css";
+import CssAnimations from "../Common/CSS-Animations/CssAnimations";
 
 const sixElement = Array.from({ length: 6 }, () => Constants.dummyData);
 
@@ -122,6 +123,17 @@ const PortfolioContainer = ({ t }) => {
           title="halfColumnText"
           desc={Constants.dummyData.desc}
         />
+      </div>
+
+      {/* CSS Animations Component */}
+      <div
+        className="portfolio-wrapper"
+        style={{
+          padding: "0",
+          display: compareFiltered("cssAnimations") === true ? "block" : "none",
+        }}
+      >
+        <CssAnimations title={"cssAnimations"} />
       </div>
     </div>
   );

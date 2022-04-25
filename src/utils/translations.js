@@ -73,6 +73,10 @@ const translations = {
       kal: "Kartal Anatolian High School",
       highSchool: "High School",
       certificate: "Certificate",
+      cssAnimations: "CSS Animations",
+      properties: "Properties",
+      add: "Add",
+      remove: "Remove",
     },
   },
   tr: {
@@ -137,6 +141,10 @@ const translations = {
       kal: "Kartal Anadolu Lisesi",
       highSchool: "Lise",
       certificate: "Sertifika",
+      cssAnimations: "CSS Animasyonları",
+      properties: "Özellikler",
+      add: "Ekle",
+      remove: "Kaldır",
     },
   },
   de: {
@@ -204,6 +212,10 @@ const translations = {
       kal: "Kartal Anatolian Gymnasium",
       highSchool: "Gymnasium",
       certificate: "Zeugnisse",
+      cssAnimations: "CSS Animationen",
+      properties: "Eigenschaften",
+      add: "Hinzufügen",
+      remove: "Entfernen",
     },
   },
 };
