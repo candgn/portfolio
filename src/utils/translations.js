@@ -72,6 +72,7 @@ const translations = {
       turkish: "Turkish",
       kal: "Kartal Anatolian High School",
       highSchool: "High School",
+      certificate: "Certificate",
     },
   },
   tr: {
@@ -135,6 +136,7 @@ const translations = {
       turkish: "Türkçe",
       kal: "Kartal Anadolu Lisesi",
       highSchool: "Lise",
+      certificate: "Sertifika",
     },
   },
   de: {
@@ -201,6 +203,7 @@ const translations = {
       turkish: "Türkisch",
       kal: "Kartal Anatolian Gymnasium",
       highSchool: "Gymnasium",
+      certificate: "Zeugnisse",
     },
   },
 };

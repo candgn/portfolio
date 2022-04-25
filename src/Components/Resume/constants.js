@@ -11,9 +11,10 @@ import { SiFlutter, SiZoho, SiAndroidstudio } from "react-icons/si";
 const PERSONAL_INFO = {
   name: "Can",
   surname: "Doğan",
-  birth: "08/1997",
+  birth: "22/08/1997",
   nationality: "turkey",
   gender: "male",
+  phone: "+90 531 734 5255",
   location: "istanbul",
   links: [
     {
@@ -21,7 +22,11 @@ const PERSONAL_INFO = {
       link: "https://www.linkedin.com/in/can-doğan-238a5115a/",
     },
     { icon: <IoLogoGithub />, link: "https://github.com/candgn" },
-    { icon: <AiOutlineMail />, link: "mailto:can.dgn03@gmail.com" },
+    {
+      icon: <AiOutlineMail />,
+      link: "mailto:can.dgn03@gmail.com",
+      title: "can.dgn03@gmail.com",
+    },
   ],
 };
 

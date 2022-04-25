@@ -15,8 +15,6 @@ const Tabs = ({ t, tabs }) => {
       "sh: " + scrollHeight + " st: " + scrollTop + " ch: " + clientHeight
     );
     setScrolled(`${scroll}%`);
-
-  
   };
 
   return (
@@ -47,11 +45,10 @@ const Tabs = ({ t, tabs }) => {
       <div className="tab-content-container">
         {tabs.map((tab, i) => (
           <div
+            className="tab-content-wrapper"
             onScroll={handleScroll}
             style={{
               display: tab.title === activeTab ? "block" : "none",
-              height: "80vh",
-              overflowY: "scroll",
             }}
           >
             <ScrollIndicator scrolled={scrolled} />

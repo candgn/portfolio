@@ -124,6 +124,9 @@ const Languages = ({ t }) => {
           </TableBody>
         </Table>
       </TableContainer>
+      <p className="mother-lang-text" style={{ marginTop: "-4.5%" }}>
+        {t("certificate")}: DSH Stufe II
+      </p>
     </div>
   );
 };

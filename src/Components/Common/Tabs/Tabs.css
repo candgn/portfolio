@@ -36,3 +36,13 @@
 .tab-content-container {
   /* margin: 5%; */
 }
+
+.tab-content-wrapper {
+  height: 80vh;
+  overflow-y: scroll;
+}
+@media screen and (max-width: 800px) {
+  .tab-content-wrapper {
+    overflow-y: unset !important;
+  }
+}

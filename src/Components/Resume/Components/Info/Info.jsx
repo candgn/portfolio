@@ -11,6 +11,7 @@ const Info = ({ t, hideImage }) => {
     { title: "nationality", data: constants.PERSONAL_INFO.nationality },
     { title: "gender", data: constants.PERSONAL_INFO.gender },
     { title: "location", data: constants.PERSONAL_INFO.location },
+    { title: "GSM", data: constants.PERSONAL_INFO.phone },
   ];
   return (
     <div className="info-container">
@@ -39,6 +40,11 @@ const Info = ({ t, hideImage }) => {
         <div className="info-social-container">
           {constants.PERSONAL_INFO.links.map((item, i) => (
             <a
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+              }}
               className="personal-link-icon"
               target="_blank"
               rel="noopener noreferrer"
@@ -46,6 +52,17 @@ const Info = ({ t, hideImage }) => {
               key={"personal-links-" + i}
             >
               {item.icon}
+              {item.title && (
+                <span
+                  style={{
+                    fontSize: "14px",
+                    fontWeight: "700",
+                    marginLeft: "5px",
+                  }}
+                >
+                  {item.title}
+                </span>
+              )}
             </a>
           ))}
         </div>
