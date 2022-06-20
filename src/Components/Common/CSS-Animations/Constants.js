@@ -84,6 +84,18 @@ const animationProperties = [
       />
     ),
   },
+  {
+    inlineProperty: "animationPlayState",
+    property: "animation-play-state",
+    type: "select",
+    component: ({ handleInput, label }) => (
+      <DropDownButton
+        label={label}
+        setSelectedValue={handleInput}
+        data={["paused", "running"]}
+      />
+    ),
+  },
 ];
 
 const Constants = {
